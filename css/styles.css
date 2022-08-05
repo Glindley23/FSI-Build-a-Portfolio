@@ -8,6 +8,11 @@ body, html {
     box-sizing: border-box;
   }
   
+.cursor-type {
+
+    cursor: grab;
+  }
+
 .text {
     
     color: rgb(223, 71, 1);
@@ -15,11 +20,13 @@ body, html {
     padding-left: 1%;
     
   }
-  .hcenter{
+
+.hcenter{
     text-align: center;
     color: rgba(235, 195, 137, 0.911);
   }
-  .tcenter{
+
+.tcenter{
     text-align: center;
     color: rgb(223, 71, 1);
   }
@@ -30,9 +37,11 @@ body, html {
     text-align: center;
     border: 3px double  rgba(248, 236, 223, 0.61);
 }
+
 .h2text{
     color: rgba(235, 195, 137, 0.911);
 }
+
 .image {
     border-style: double;
     float: left;
@@ -40,6 +49,7 @@ body, html {
    margin-right: 20px;
    
 }
+
 .bg-image{
 
         /* The image used */
@@ -52,8 +62,9 @@ body, html {
         /* Full height */
         height: 100%; 
        
-      }
-      .bg-text {
+}
+
+.bg-text {
         background-color: rgb(0,0,0); /* Fallback color */
         background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
         color: rgba(0, 214, 11, 0.911);
@@ -68,4 +79,4 @@ body, html {
         padding: 30px;
         text-align: left;
         margin-left: 10px;
-      }
+}
