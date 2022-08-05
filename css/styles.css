@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    float:absolute;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+.text {
+    
+    color: rgb(223, 71, 1);
+    border: 3px double  rgba(248, 236, 223, 0.61);
+    padding-left: 1%;
+    
+  }
+  .hcenter{
+    text-align: center;
+    color: rgba(235, 195, 137, 0.911);
+  }
+  .tcenter{
+    text-align: center;
+    color: rgb(223, 71, 1);
+  }
+
+.h1text{
+    backdrop-filter: blur(5px);
+    color: rgba(235, 195, 137, 0.911);
+    text-align: center;
+    border: 3px double  rgba(248, 236, 223, 0.61);
+}
+.h2text{
+    color: rgba(235, 195, 137, 0.911);
+}
+.image {
+    border-style: double;
+    float: left;
+    border-radius: 10px;
+   margin-right: 20px;
+   
+}
+.bg-image{
+
+        /* The image used */
+        background-image: url("../images/coding-portfolio.jpeg");
+        
+        /* Add the blur effect */
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+        
+        /* Full height */
+        height: 100%; 
+       
+      }
+      .bg-text {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        color: rgba(0, 214, 11, 0.911);
+    
+        border: 3px solid  rgba(248, 236, 223, 0.61);
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 30px;
+        text-align: left;
+        margin-left: 10px;
+      }
